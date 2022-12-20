@@ -1,0 +1,6 @@
+---
+- name: Test connection to Linux hosts
+  hosts: linux
+  tasks:
+  - name: Ping Linux hosts
+    ping:
